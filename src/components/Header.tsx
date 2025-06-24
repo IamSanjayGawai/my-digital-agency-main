@@ -50,7 +50,7 @@ const Header: React.FC = () => {
             className="flex items-center space-x-2"
           >
             <Rocket className="h-8 w-8 text-purple-600" />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">
+            <span className="text-xl font-bold text-white dark:text-white">
               BeingRambo
             </span>
           </motion.div>
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
               <motion.button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                className="text-gray-900 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
